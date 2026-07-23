@@ -27,8 +27,8 @@ The solution is encapsulated within the `TicketCodec` class, providing a clean A
 To satisfy the non-triviality requirement (where modifying even a single character must alter the checksum), the checksum algorithm uses **Positional Weighted ASCII Summation with Modulo Arithmetic**.
 
 #### Algorithm Formula:
-$$	ext{Checksum} = \left( \sum_{i=1}^{N} 	ext{ord}(C_i) 	imes i ight) \pmod{1000}$$
 
+$$\text{Checksum} = \left( \sum_{i=1}^{N} \text{ord}(C_i) \times i \right) \pmod{1000}$$
 Where:
 * $C_i$ is the character at 1-based index position $i$.
 * $	ext{ord}(C_i)$ is the integer ASCII value of character $C_i$.
@@ -38,7 +38,8 @@ Where:
 #### Why Positional Weighting Works:
 1. **Character Swapping Protection**: If `AB` becomes `BA`, simple sum ($	ext{ASCII}_A + 	ext{ASCII}_B$) fails to detect tampering. Positional weighting computes $(	ext{ASCII}_A 	imes 1 + 	ext{ASCII}_B 	imes 2) 
 eq (	ext{ASCII}_B 	imes 1 + 	ext{ASCII}_A 	imes 2)$, catching the tamper.
-2. **Single-Character Mutation**: Changing any letter or number (e.g., `GATE7` $ightarrow$ `GATE4`) changes $	ext{ord}(C_i) 	imes i$, altering the sum and producing a different 3-digit checksum.
+2. **Single-Character Mutation**: Changing any letter or number (e.g., `GATE7` $
+ightarrow$ `GATE4`) changes $	ext{ord}(C_i) 	imes i$, altering the sum and producing a different 3-digit checksum.
 
 ---
 
@@ -104,7 +105,10 @@ decode('XSA07STAND-023') -> 'CORRUPTED TICKET'  (tampered)
 ```
 
 * **Explanation**:
-  * **Corruption Test**: The first character of each barcode string was intentionally altered (`M` $ightarrow$ `X`, `A` $ightarrow$ `X`, `K` $ightarrow$ `X`).
+  * **Corruption Test**: The first character of each barcode string was intentionally altered (`M` $
+ightarrow$ `X`, `A` $
+ightarrow$ `X`, `K` $
+ightarrow$ `X`).
   * **Detection**: Decoding `'XIA2026GATE7-113'` extracts ticket string `'XIA2026GATE7'`. Re-calculating checksum for `'XIA2026GATE7'` yields a value different from `'113'` (since ASCII value of `X` differs from `M`).
   * **Result**: The checksum mismatch is caught instantly, returning `"CORRUPTED TICKET"` and flagging the barcode as forged.
 
