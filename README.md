@@ -25,8 +25,18 @@ Each task is organized into its own folder containing the relevant code and docu
 ### Prerequisites
 
 - Python 3.8+
+- Git
 
-### Running Tasks
+### 1. Clone the Repository
+
+Clone this repository to your local machine:
+
+```bash
+git clone <your-repository-url>
+cd <repository-folder-name>
+```
+
+### 2. Running Tasks
 
 Navigate to the desired task directory and run the corresponding Python script.
 
@@ -43,13 +53,13 @@ python task_1_1.py
 
 The solutions follow these principles:
 
-- **Task Isolation**
+- **Task Isolation**  
   Each task is implemented inside its own dedicated directory to maintain clear organization.
-- **Clean Code & Documentation**
+- **Clean Code & Documentation**  
   Code follows readable structure, meaningful naming conventions, comments, and documentation where needed.
-- **Object-Oriented Design**
+- **Object-Oriented Design**  
   OOP principles are applied where appropriate to improve maintainability and separation of responsibilities.
-- **Robust Logic**
+- **Robust Logic**  
   Solutions consider edge cases, validation, and deterministic behavior.
 
 ---
