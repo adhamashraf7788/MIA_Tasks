@@ -1,13 +1,12 @@
-```markdown
 # 🤖 MIA AI Team Training '27 — Task Solutions
 
-Welcome to my submission repository for the **MIA Robotics AI Team Training '27** program[cite: 1]! This repository serves as a centralized hub for all assigned tasks, projects, and bonus implementations throughout the training modules.
+Welcome to my submission repository for the **MIA Robotics AI Team Training '27** program! This repository serves as a centralized hub for all assigned tasks, projects, and bonus implementations throughout the training modules.
 
 ---
 
 ## 📂 Repository Structure
 
-Each task is organized into its own folder containing the relevant code and documentation, following the submission guidelines[cite: 1].
+Each task is organized into its own folder containing the relevant code and documentation, following the submission guidelines.
 
 ```text
 .
@@ -17,7 +16,6 @@ Each task is organized into its own folder containing the relevant code and docu
 │   └── Task_1_3/            # FIFA Match Simulation Engine (& AI Coach)
 ├── Task 2/                   # (Upcoming) Task 2 Solutions
 └── README.md                 # Main Repository Overview
-
 ```
 
 ---
@@ -26,66 +24,51 @@ Each task is organized into its own folder containing the relevant code and docu
 
 ### Prerequisites
 
-* **Python**: `3.8+`
+- Python 3.8+
 
-### Execution
+### Running Tasks
 
-To run any task, navigate to its respective folder and execute the Python script:
+Navigate to the desired task directory and run the corresponding Python script.
+
+Example:
 
 ```bash
-# Example: Task 1.1
 cd "Task 1/Task_1_1"
 python task_1_1.py
-
-```
-
-```bash
-# Example: Task 1.2
-cd "Task 1/Task_1_2"
-python task_1_2.py
-
-```
-
-```bash
-# Example: Task 1.3
-cd "Task 1/Task_1_3"
-python task_1_3.py
-
 ```
 
 ---
 
-## 📌 Submission Guidelines & Standards
+## 📌 Development Standards
 
-* **Directory Isolation:** Every task resides in its dedicated directory/environment as requested.
+The solutions follow these principles:
 
-
-* **Documentation & Clean Code:** Standardized formatting with clear docstrings, inline comments, and clean, readable code.
-
-
-* **OOP & Logic Integrity:** Robust implementation of core logic, handling edge cases, and deterministic state management.
-
-
+- **Task Isolation**
+  Each task is implemented inside its own dedicated directory to maintain clear organization.
+- **Clean Code & Documentation**
+  Code follows readable structure, meaningful naming conventions, comments, and documentation where needed.
+- **Object-Oriented Design**
+  OOP principles are applied where appropriate to improve maintainability and separation of responsibilities.
+- **Robust Logic**
+  Solutions consider edge cases, validation, and deterministic behavior.
 
 ---
 
 ## 📜 Task Index
 
-| Task ID | Topic / Module | Status | Highlights / Bonuses |
-| --- | --- | --- | --- |
-| **Task 1**<br> | MIA World Cup Systems
+| Task ID | Status | Notes |
+|---|---|---|
+| Task 1 | ✅ Completed | Full implementation with documented solutions |
+| Task 2 | ⏳ Pending | Will be added later |
 
- | ✅ Completed | Multi-level tiebreakers, Custom Codec Checksum, OOP Simulation & Gemini AI Coach
+---
 
- |
-| **Task 2** | *To be updated* | ⏳ Pending | — |
+## 🚀 Future Updates
+
+Additional training tasks, improvements, and bonus implementations will be added as the program progresses.
 
 ---
 
 ## 🤝 Acknowledgments
 
-Special thanks to the **MIA Robotics AI Team** instructors and mentors for crafting these hands-on assignments.
-
-```
-
-```
+Special thanks to the MIA Robotics AI Team instructors and mentors for creating practical assignments that encourage problem-solving, software engineering practices, and AI development.
