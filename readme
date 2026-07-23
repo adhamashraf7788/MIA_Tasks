@@ -1,0 +1,91 @@
+```markdown
+# 🤖 MIA AI Team Training '27 — Task Solutions
+
+Welcome to my submission repository for the **MIA Robotics AI Team Training '27** program[cite: 1]! This repository serves as a centralized hub for all assigned tasks, projects, and bonus implementations throughout the training modules.
+
+---
+
+## 📂 Repository Structure
+
+Each task is organized into its own folder containing the relevant code and documentation, following the submission guidelines[cite: 1].
+
+```text
+.
+├── Task 1/                   # Task 1: MIA World Cup Systems
+│   ├── Task_1_1/            # Group Stage Standings Engine
+│   ├── Task_1_2/            # Stadium Gate Ticket Codec
+│   └── Task_1_3/            # FIFA Match Simulation Engine (& AI Coach)
+├── Task 2/                   # (Upcoming) Task 2 Solutions
+└── README.md                 # Main Repository Overview
+
+```
+
+---
+
+## 🛠️ Requirements & How to Run
+
+### Prerequisites
+
+* **Python**: `3.8+`
+
+### Execution
+
+To run any task, navigate to its respective folder and execute the Python script:
+
+```bash
+# Example: Task 1.1
+cd "Task 1/Task_1_1"
+python task_1_1.py
+
+```
+
+```bash
+# Example: Task 1.2
+cd "Task 1/Task_1_2"
+python task_1_2.py
+
+```
+
+```bash
+# Example: Task 1.3
+cd "Task 1/Task_1_3"
+python task_1_3.py
+
+```
+
+---
+
+## 📌 Submission Guidelines & Standards
+
+* **Directory Isolation:** Every task resides in its dedicated directory/environment as requested.
+
+
+* **Documentation & Clean Code:** Standardized formatting with clear docstrings, inline comments, and clean, readable code.
+
+
+* **OOP & Logic Integrity:** Robust implementation of core logic, handling edge cases, and deterministic state management.
+
+
+
+---
+
+## 📜 Task Index
+
+| Task ID | Topic / Module | Status | Highlights / Bonuses |
+| --- | --- | --- | --- |
+| **Task 1**<br> | MIA World Cup Systems
+
+ | ✅ Completed | Multi-level tiebreakers, Custom Codec Checksum, OOP Simulation & Gemini AI Coach
+
+ |
+| **Task 2** | *To be updated* | ⏳ Pending | — |
+
+---
+
+## 🤝 Acknowledgments
+
+Special thanks to the **MIA Robotics AI Team** instructors and mentors for crafting these hands-on assignments.
+
+```
+
+```
