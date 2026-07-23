@@ -32,8 +32,8 @@ Each task is organized into its own folder containing the relevant code and docu
 Clone this repository to your local machine:
 
 ```bash
-git clone <your-repository-url>
-cd <repository-folder-name>
+git clone [https://github.com/adhamashraf7788/MIA_Tasks.git](https://github.com/adhamashraf7788/MIA_Tasks.git)
+cd MIA_Tasks
 ```
 
 ### 2. Running Tasks
